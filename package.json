@@ -19,6 +19,7 @@
     "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
     "express-basic-auth": "^1.2.1",
+    "ivfi": "^1.2.2",
     "js-cookie": "^3.0.1",
     "lodash": "^4.17.21",
     "mime-types": "^2.1.35",
@@ -69,5 +70,8 @@
   "bugs": {
     "url": "https://github.com/sixem/ivfi-node/issues"
   },
-  "homepage": "https://ivfi.io/"
+  "homepage": "https://ivfi.io/",
+  "directories": {
+    "doc": "docs"
+  }
 }

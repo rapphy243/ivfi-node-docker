@@ -2,8 +2,8 @@
 dist
 packed
 node_modules
-run.ts
-run.js
+#run.ts
+#run.js
 *.local
 
 # Editor directories and files

@@ -1,0 +1,15 @@
+services:
+  ivfi:
+    build:
+      context: ./
+      dockerfile: ./dockerfile
+    image: rapphy243/ivfi-node
+    container_name: ivfi
+    hostname: ivfi
+    volumes:
+      - ./files:/home/node/files:ro # Change First Part To Exposed Directory
+      - ./run.js:/home/node/app/run.js:ro # Where run.js Is Located
+    ports:
+      - 4000:4000 # Port In Run.js
+    restart: unless-stopped
+    
